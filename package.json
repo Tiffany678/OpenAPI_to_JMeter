@@ -1,0 +1,17 @@
+{
+  "name": "swagger-to-jmx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node src/generateJmx.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "swagger-parser": "^10.0.3",
+    "xmlbuilder2": "^3.1.1"
+  }
+}
